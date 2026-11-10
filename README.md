@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Security-Event-Logs-Audit-Monitoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Security-Event-Logs-Audit-Monitoring?style=social" alt="GitHub stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Security-Event-Logs-Audit-Monitoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Security-Event-Logs-Audit-Monitoring?style=social" alt="GitHub_Stars"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Security-Event-Logs-Audit-Monitoring/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Security-Event-Logs-Audit-Monitoring?style=social" alt="GitHub forks"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Security-Event-Logs-Audit-Monitoring/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg?style=flat-square" alt="License: CC0-1.0"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
@@ -109,86 +109,86 @@ Community-driven, transparent, and self-hosted tools spanning **complete open-so
 
 ### ⭐ Open-Source Solutions by Community Stars
 
-The open-source platforms below are sorted in descending order by **GitHub Star Count** as of late 2026:
+The open-source platforms below are sorted in descending order by **GitHub Stars_Count** as of late 2026:
 
-| Repository & Tool 📦 | GitHub Stars 🌟 | Stack / Language 💻 | License 📜 | Architecture Tier 🏗️ |
+| Repository & Tool 📦 | GitHub_Stars 🌟 | Stack / Language 💻 | License 📜 | Architecture Tier 🏗️ |
 |:---|:---|:---|:---|:---|
-| **[Elasticsearch](https://github.com/elastic/elasticsearch)** | [![GitHub stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers) | Java / Lucene | Elastic-2.0 / SSPL | Distributed Search & Security Log Engine |
-| **[Grafana Loki](https://github.com/grafana/loki)** | [![GitHub stars](https://img.shields.io/github/stars/grafana/loki?style=social&color=white)](https://github.com/grafana/loki/stargazers) | Go | AGPL-3.0 | Label-Indexed Cloud-Native Log Aggregator |
-| **[osquery](https://github.com/osquery/osquery)** | [![GitHub stars](https://img.shields.io/github/stars/osquery/osquery?style=social&color=white)](https://github.com/osquery/osquery/stargazers) | C++ / SQL | Apache-2.0 | SQL-Powered OS Instrumentation & Audit Agent |
-| **[Wazuh](https://github.com/wazuh/wazuh)** | [![GitHub stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers) | C / C++ / Python | GPL-2.0 | Complete Open-Source SIEM, XDR & FIM Suite |
-| **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** | [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) | Java / Lucene | Apache-2.0 | Open-Source Search, Log Analytics & Security Engine |
-| **[Fluentd](https://github.com/fluent/fluentd)** | [![GitHub stars](https://img.shields.io/github/stars/fluent/fluentd?style=social&color=white)](https://github.com/fluent/fluentd/stargazers) | Ruby / C | Apache-2.0 | Unified Log Collection & Event Forwarder |
-| **[Sigma](https://github.com/SigmaHQ/sigma)** | [![GitHub stars](https://img.shields.io/github/stars/SigmaHQ/sigma?style=social&color=white)](https://github.com/SigmaHQ/sigma/stargazers) | YAML / Python | Detection Rule License | Standardized SIEM Detection Signature Standard |
-| **[Fluent Bit](https://github.com/fluent/fluent-bit)** | [![GitHub stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers) | C | Apache-2.0 | Ultra-Lightweight Log & Metric Forwarder |
-| **[Graylog](https://github.com/Graylog2/graylog2-server)** | [![GitHub stars](https://img.shields.io/github/stars/Graylog2/graylog2-server?style=social&color=white)](https://github.com/Graylog2/graylog2-server/stargazers) | Java / React | SSPL (Open) / Commercial | Centralized Log Management & Security Analytics |
-| **[Security Onion](https://github.com/Security-Onion-Solutions/securityonion)** | [![GitHub stars](https://img.shields.io/github/stars/Security-Onion-Solutions/securityonion?style=social&color=white)](https://github.com/Security-Onion-Solutions/securityonion/stargazers) | Linux / Python / Go | GPL-2.0 | Enterprise Security Monitoring & Threat Hunting OS |
-| **[TheHive](https://github.com/TheHive-Project/TheHive)** | [![GitHub stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers) | Scala / Play / Java | AGPL-3.0 | Security Incident Response & SOAR Investigation |
-| **[Retraced](https://github.com/retracedhq/retraced)** | [![GitHub stars](https://img.shields.io/github/stars/retracedhq/retraced?style=social&color=white)](https://github.com/retracedhq/retraced/stargazers) | TypeScript / Node.js | Apache-2.0 | Embeddable Enterprise Audit Log Engine & UI |
-| **[Auditum](https://github.com/auditumio/auditum)** | [![GitHub stars](https://img.shields.io/github/stars/auditumio/auditum?style=social&color=white)](https://github.com/auditumio/auditum/stargazers) | Go | Apache-2.0 | API-First Microservice Audit Trail Backend |
+| **[Elasticsearch](https://github.com/elastic/elasticsearch)** | [![GitHub_Stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers) | Java / Lucene | Elastic-2.0 / SSPL | Distributed Search & Security Log Engine |
+| **[Grafana Loki](https://github.com/grafana/loki)** | [![GitHub_Stars](https://img.shields.io/github/stars/grafana/loki?style=social&color=white)](https://github.com/grafana/loki/stargazers) | Go | AGPL-3.0 | Label-Indexed Cloud-Native Log Aggregator |
+| **[osquery](https://github.com/osquery/osquery)** | [![GitHub_Stars](https://img.shields.io/github/stars/osquery/osquery?style=social&color=white)](https://github.com/osquery/osquery/stargazers) | C++ / SQL | Apache-2.0 | SQL-Powered OS Instrumentation & Audit Agent |
+| **[Wazuh](https://github.com/wazuh/wazuh)** | [![GitHub_Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers) | C / C++ / Python | GPL-2.0 | Complete Open-Source SIEM, XDR & FIM Suite |
+| **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** | [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) | Java / Lucene | Apache-2.0 | Open-Source Search, Log Analytics & Security Engine |
+| **[Fluentd](https://github.com/fluent/fluentd)** | [![GitHub_Stars](https://img.shields.io/github/stars/fluent/fluentd?style=social&color=white)](https://github.com/fluent/fluentd/stargazers) | Ruby / C | Apache-2.0 | Unified Log Collection & Event Forwarder |
+| **[Sigma](https://github.com/SigmaHQ/sigma)** | [![GitHub_Stars](https://img.shields.io/github/stars/SigmaHQ/sigma?style=social&color=white)](https://github.com/SigmaHQ/sigma/stargazers) | YAML / Python | Detection Rule License | Standardized SIEM Detection Signature Standard |
+| **[Fluent Bit](https://github.com/fluent/fluent-bit)** | [![GitHub_Stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers) | C | Apache-2.0 | Ultra-Lightweight Log & Metric Forwarder |
+| **[Graylog](https://github.com/Graylog2/graylog2-server)** | [![GitHub_Stars](https://img.shields.io/github/stars/Graylog2/graylog2-server?style=social&color=white)](https://github.com/Graylog2/graylog2-server/stargazers) | Java / React | SSPL (Open) / Commercial | Centralized Log Management & Security Analytics |
+| **[Security Onion](https://github.com/Security-Onion-Solutions/securityonion)** | [![GitHub_Stars](https://img.shields.io/github/stars/Security-Onion-Solutions/securityonion?style=social&color=white)](https://github.com/Security-Onion-Solutions/securityonion/stargazers) | Linux / Python / Go | GPL-2.0 | Enterprise Security Monitoring & Threat Hunting OS |
+| **[TheHive](https://github.com/TheHive-Project/TheHive)** | [![GitHub_Stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers) | Scala / Play / Java | AGPL-3.0 | Security Incident Response & SOAR Investigation |
+| **[Retraced](https://github.com/retracedhq/retraced)** | [![GitHub_Stars](https://img.shields.io/github/stars/retracedhq/retraced?style=social&color=white)](https://github.com/retracedhq/retraced/stargazers) | TypeScript / Node.js | Apache-2.0 | Embeddable Enterprise Audit Log Engine & UI |
+| **[Auditum](https://github.com/auditumio/auditum)** | [![GitHub_Stars](https://img.shields.io/github/stars/auditumio/auditum?style=social&color=white)](https://github.com/auditumio/auditum/stargazers) | Go | Apache-2.0 | API-First Microservice Audit Trail Backend |
 
 ---
 
 ### 📖 Open-Source Platform Profiles
 
 #### 1. 🔍 [Elasticsearch](https://github.com/elastic/elasticsearch)
-- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers)
+- **GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers)
 - **Tech Stack:** Java, Lucene | **License:** Elastic-2.0 / SSPL
 - **Key Features:** The underlying search engine that catalyzed modern security analytics. Elasticsearch powers the Elastic Security SIEM suite, providing blazingly fast full-text indexing, vector search, and complex multi-index aggregations across petabytes of security event data.
 
 #### 2. 🔥 [Grafana Loki](https://github.com/grafana/loki)
-- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/grafana/loki?style=social&color=white)](https://github.com/grafana/loki/stargazers)
+- **GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/loki?style=social&color=white)](https://github.com/grafana/loki/stargazers)
 - **Tech Stack:** Go | **License:** AGPL-3.0
 - **Key Features:** Designed with a "like Prometheus, but for logs" philosophy. Unlike Elasticsearch, Loki avoids indexing the full text of log lines and instead indexes only stream labels, reducing operational memory and storage footprints by up to 80% while pairing seamlessly with Grafana visual dashboards.
 
 #### 3. 🔎 [osquery](https://github.com/osquery/osquery)
-- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/osquery/osquery?style=social&color=white)](https://github.com/osquery/osquery/stargazers)
+- **GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/osquery/osquery?style=social&color=white)](https://github.com/osquery/osquery/stargazers)
 - **Tech Stack:** C++, SQLite | **License:** Apache-2.0
 - **Key Features:** Exposes low-level operating system telemetry (Linux, macOS, Windows) as high-performance relational database tables. Security teams write SQL queries to track socket connections, running processes, kernel modules, file modifications, and hardware audit logs in real-time.
 
 #### 4. 🛡️ [Wazuh](https://github.com/wazuh/wazuh)
-- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)
+- **GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)
 - **Tech Stack:** C, C++, Python, OpenSearch | **License:** GPL-2.0
 - **Key Features:** The leading open-source turnkey SIEM and XDR platform. Provides endpoint agents delivering file integrity monitoring (FIM), rootkit detection, vulnerability assessments, configuration compliance checks, and real-time active response playbooks.
 
 #### 5. 🌐 [OpenSearch](https://github.com/opensearch-project/OpenSearch)
-- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)
+- **GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)
 - **Tech Stack:** Java, Lucene | **License:** Apache-2.0
 - **Key Features:** Fully open-source Apache-licensed fork of Elasticsearch. Offers OpenSearch Dashboards, Security Analytics plugins with built-in Sigma rule support, anomaly detection algorithms, and flexible index state management without commercial licensing restrictions.
 
 #### 6. 🌊 [Fluentd](https://github.com/fluent/fluentd) & [Fluent Bit](https://github.com/fluent/fluent-bit)
-- **GitHub (Fluentd):** [![GitHub stars](https://img.shields.io/github/stars/fluent/fluentd?style=social&color=white)](https://github.com/fluent/fluentd/stargazers)
-- **GitHub (Fluent Bit):** [![GitHub stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers)
+- **GitHub (Fluentd):** [![GitHub_Stars](https://img.shields.io/github/stars/fluent/fluentd?style=social&color=white)](https://github.com/fluent/fluentd/stargazers)
+- **GitHub (Fluent Bit):** [![GitHub_Stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers)
 - **Tech Stack:** Ruby, C | **License:** Apache-2.0
 - **Key Features:** Cloud Native Computing Foundation (CNCF) graduated projects acting as universal logging pipelines. Fluent Bit provides an ultra-lean footprint (~450 KB memory usage) optimized for edge nodes and Kubernetes daemonsets, buffering and sanitizing audit logs before forwarding to storage backends.
 
 #### 7. 🎯 [Sigma](https://github.com/SigmaHQ/sigma)
-- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/SigmaHQ/sigma?style=social&color=white)](https://github.com/SigmaHQ/sigma/stargazers)
+- **GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/SigmaHQ/sigma?style=social&color=white)](https://github.com/SigmaHQ/sigma/stargazers)
 - **Tech Stack:** YAML, Python | **License:** Detection Rule License
 - **Key Features:** The universal signature format for security event logs, often called "Suricata/Snort for log files". Allows security researchers to author detection rules in vendor-neutral YAML and compile them dynamically into target queries for Splunk SPL, Elastic DSL, Microsoft Sentinel KQL, or Graylog.
 
 #### 8. 📊 [Graylog](https://github.com/Graylog2/graylog2-server)
-- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/Graylog2/graylog2-server?style=social&color=white)](https://github.com/Graylog2/graylog2-server/stargazers)
+- **GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/Graylog2/graylog2-server?style=social&color=white)](https://github.com/Graylog2/graylog2-server/stargazers)
 - **Tech Stack:** Java, MongoDB, OpenSearch | **License:** SSPL (Open) / Commercial
 - **Key Features:** Highly accessible centralized log management platform featuring processing pipelines, field extractions, stream routing, and multi-tenant security dashboards without the initial complexity of heavy SIEM deployments.
 
 #### 9. 🧅 [Security Onion](https://github.com/Security-Onion-Solutions/securityonion)
-- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/Security-Onion-Solutions/securityonion?style=social&color=white)](https://github.com/Security-Onion-Solutions/securityonion/stargazers)
+- **GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/Security-Onion-Solutions/securityonion?style=social&color=white)](https://github.com/Security-Onion-Solutions/securityonion/stargazers)
 - **Tech Stack:** Linux distribution | **License:** GPL-2.0
 - **Key Features:** An integrated Linux distribution packaging Zeek, Suricata, Stenographer, Wazuh, and CyberChef into an enterprise threat hunting and security monitoring powerhouse.
 
 #### 10. 🐝 [TheHive](https://github.com/TheHive-Project/TheHive)
-- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers)
+- **GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers)
 - **Tech Stack:** Scala, Play Framework | **License:** AGPL-3.0
 - **Key Features:** A collaborative security incident response platform (SIRP) closely linked with MISP and Cortex analyzers, empowering SOC analysts to orchestrate alerts, run forensic tasks, and manage case evidence.
 
 #### 11. 🛡️ [Retraced](https://github.com/retracedhq/retraced)
-- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/retracedhq/retraced?style=social&color=white)](https://github.com/retracedhq/retraced/stargazers)
+- **GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/retracedhq/retraced?style=social&color=white)](https://github.com/retracedhq/retraced/stargazers)
 - **Tech Stack:** TypeScript, Node.js, PostgreSQL | **License:** Apache-2.0
 - **Key Features:** Designed specifically for SaaS engineering teams needing to provide enterprise-grade, tamper-evident audit logs directly to their end customers. Ships with an embeddable React log viewer component, export mechanisms (CSV/JSON), and cryptographic hashing.
 
 #### 12. 📋 [Auditum](https://github.com/auditumio/auditum)
-- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/auditumio/auditum?style=social&color=white)](https://github.com/auditumio/auditum/stargazers)
+- **GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/auditumio/auditum?style=social&color=white)](https://github.com/auditumio/auditum/stargazers)
 - **Tech Stack:** Go, Cloud-Native | **License:** Apache-2.0
 - **Key Features:** An API-driven (REST & gRPC) microservice audit log manager engineered to centralize application audit trails from distributed services into a structured, queryable schema.
 
