@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
+  <defs>
+    <!-- Background Linear Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0e172a" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="cyberCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .grid-line {
+      stroke: #334155;
+      stroke-opacity: 0.25;
+      stroke-width: 1;
+    }
+    .flow-wave {
+      fill: none;
+      stroke-width: 2;
+      opacity: 0.45;
+    }
+    .pulsing-orb {
+      animation: pulse 4s ease-in-out infinite alternate;
+    }
+    .radar-pulse {
+      animation: radar 3s linear infinite;
+      transform-origin: 1060px 100px;
+    }
+    .dash-stream {
+      stroke-dasharray: 8, 8;
+      animation: dashMove 20s linear infinite;
+    }
+    .card-drift-1 {
+      animation: floatSlow 6s ease-in-out infinite alternate;
+    }
+    .card-drift-2 {
+      animation: floatSlow 7s ease-in-out infinite alternate-reverse;
+    }
+    .card-drift-3 {
+      animation: floatSlow 5.5s ease-in-out infinite alternate;
+    }
+    @keyframes pulse {
+      0% { r: 6px; opacity: 0.4; }
+      100% { r: 12px; opacity: 0.9; }
+    }
+    @keyframes radar {
+      0% { r: 10px; opacity: 0.9; stroke-width: 2; }
+      100% { r: 85px; opacity: 0; stroke-width: 0.5; }
+    }
+    @keyframes dashMove {
+      from { stroke-dashoffset: 400; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes floatSlow {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-8px); }
+    }
+  </style>
+
+  <!-- Deep Background Canvas -->
+  <rect width="1200" height="360" fill="url(#bgGrad)" />
+
+  <!-- Technical Grid Pattern -->
+  <g class="grid-layer">
+    <line x1="0" y1="60" x2="1200" y2="60" class="grid-line" />
+    <line x1="0" y1="1200" x2="1200" y2="120" class="grid-line" />
+    <line x1="0" y1="180" x2="1200" y2="180" class="grid-line" />
+    <line x1="0" y1="240" x2="1200" y2="240" class="grid-line" />
+    <line x1="0" y1="300" x2="1200" y2="300" class="grid-line" />
+    <line x1="120" y1="0" x2="120" y2="360" class="grid-line" />
+    <line x1="240" y1="0" x2="240" y2="360" class="grid-line" />
+    <line x1="360" y1="0" x2="360" y2="360" class="grid-line" />
+    <line x1="480" y1="0" x2="480" y2="360" class="grid-line" />
+    <line x1="600" y1="0" x2="600" y2="360" class="grid-line" />
+    <line x1="720" y1="0" x2="720" y2="360" class="grid-line" />
+    <line x1="840" y1="0" x2="840" y2="360" class="grid-line" />
+    <line x1="960" y1="0" x2="960" y2="360" class="grid-line" />
+    <line x1="1080" y1="0" x2="1080" y2="360" class="grid-line" />
+  </g>
+
+  <!-- Dynamic Ambient Glow Spots -->
+  <circle cx="150" cy="80" r="140" fill="#06b6d4" opacity="0.12" filter="url(#glow)" />
+  <circle cx="1060" cy="100" r="180" fill="#3b82f6" opacity="0.15" filter="url(#glow)" />
+  <circle cx="850" cy="280" r="160" fill="#8b5cf6" opacity="0.12" filter="url(#glow)" />
+
+  <!-- Dynamic Radar Scanner (Top Right) -->
+  <g opacity="0.75">
+    <circle cx="1060" cy="100" r="25" fill="none" stroke="#06b6d4" stroke-width="1.2" opacity="0.5" />
+    <circle cx="1060" cy="100" r="50" fill="none" stroke="#06b6d4" stroke-width="1.2" opacity="0.35" />
+    <circle cx="1060" cy="100" r="75" fill="none" stroke="#06b6d4" stroke-width="1" opacity="0.2" />
+    <circle cx="1060" cy="100" class="radar-pulse" fill="none" stroke="#38bdf8" />
+    <line x1="1060" y1="15" x2="1060" y2="185" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="3,3" />
+    <line x1="975" y1="100" x2="1145" y2="100" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="3,3" />
+    <circle cx="1060" cy="100" r="4" fill="#38bdf8" filter="url(#softGlow)" />
+  </g>
+
+  <!-- Dynamic Cyber Streams / Data Waves -->
+  <path d="M 0,260 Q 300,190 600,240 T 1200,210" class="flow-wave dash-stream" stroke="#06b6d4" />
+  <path d="M 0,285 Q 320,330 640,270 T 1200,290" class="flow-wave dash-stream" stroke="#3b82f6" />
+  <path d="M 0,160 Q 250,110 550,150 T 1200,120" class="flow-wave" stroke="#8b5cf6" opacity="0.25" />
+
+  <!-- Animated Sensor Points -->
+  <circle cx="280" cy="225" r="7" fill="#38bdf8" class="pulsing-orb" filter="url(#softGlow)" />
+  <circle cx="680" cy="255" r="9" fill="#10b981" class="pulsing-orb" filter="url(#softGlow)" style="animation-delay: 1.5s;" />
+  <circle cx="940" cy="215" r="8" fill="#f59e0b" class="pulsing-orb" filter="url(#softGlow)" style="animation-delay: 2.7s;" />
+
+  <!-- Decorative Interactive Floating Pill Badges (Right/Bottom) -->
+  <g class="card-drift-1" transform="translate(730, 260)">
+    <rect width="135" height="34" rx="17" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" filter="url(#softGlow)"/>
+    <circle cx="18" cy="17" r="5" fill="#38bdf8" />
+    <text x="32" y="21" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="0.5">SIEM &amp; XDR</text>
+  </g>
+
+  <g class="card-drift-2" transform="translate(885, 260)">
+    <rect width="145" height="34" rx="17" fill="url(#cardGrad)" stroke="#10b981" stroke-width="1.2" stroke-opacity="0.6" filter="url(#softGlow)"/>
+    <circle cx="18" cy="17" r="5" fill="#10b981" />
+    <text x="32" y="21" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="0.5">AUDIT TRAILS</text>
+  </g>
+
+  <g class="card-drift-3" transform="translate(1048, 260)">
+    <rect width="130" height="34" rx="17" fill="url(#cardGrad)" stroke="#8b5cf6" stroke-width="1.2" stroke-opacity="0.6" filter="url(#softGlow)"/>
+    <circle cx="18" cy="17" r="5" fill="#8b5cf6" />
+    <text x="32" y="21" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="0.5">SOC2 &amp; NIS2</text>
+  </g>
+
+  <!-- FOREGROUND BRANDING CONTENT (Guaranteed Front Layer) -->
+  <g transform="translate(70, 75)">
+    <!-- Top Pill Category Header -->
+    <g transform="translate(0, 0)">
+      <rect width="250" height="28" rx="14" fill="#1e293b" fill-opacity="0.85" stroke="#06b6d4" stroke-width="1.2" stroke-opacity="0.8" />
+      <circle cx="14" cy="14" r="4.5" fill="#10b981" />
+      <text x="28" y="18" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.2">CURATED AWESOME LIST</text>
+    </g>
+
+    <!-- Main Title with Glowing Gradient Accent -->
+    <text x="0" y="80" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5">
+      Security Event Logs &amp;
+    </text>
+    <text x="0" y="132" fill="url(#cyberCyan)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5" filter="url(#softGlow)">
+      Audit Monitoring
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="174" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" letter-spacing="0.2">
+      Enterprise SIEM, Next-Gen Log Analytics &amp; Immutable Audit Trail Platforms
+    </text>
+
+    <!-- Meta Tech Badges in Foreground -->
+    <g transform="translate(0, 202)">
+      <rect width="92" height="24" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="14" y="16" fill="#cbd5e1" font-family="monospace" font-size="11" font-weight="600">⚡ SIEM</text>
+
+      <rect x="102" y="0" width="105" height="24" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="114" y="16" fill="#cbd5e1" font-family="monospace" font-size="11" font-weight="600">🛡️ AUDIT</text>
+
+      <rect x="217" y="0" width="118" height="24" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="229" y="16" fill="#cbd5e1" font-family="monospace" font-size="11" font-weight="600">📊 LOGS &amp; XDR</text>
+
+      <rect x="345" y="0" width="138" height="24" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="357" y="16" fill="#cbd5e1" font-family="monospace" font-size="11" font-weight="600">🌐 OPEN SOURCE</text>
+    </g>
+  </g>
+
+  <!-- Border Frame Accent Line -->
+  <rect x="0" y="357" width="1200" height="3" fill="url(#cyberCyan)" />
+</svg>
