@@ -5,10 +5,12 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Security-Event-Logs-Audit-Monitoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Security-Event-Logs-Audit-Monitoring?style=social" alt="GitHub stars"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Security-Event-Logs-Audit-Monitoring/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Security-Event-Logs-Audit-Monitoring?style=social" alt="GitHub forks"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Security-Event-Logs-Audit-Monitoring/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg?style=flat-square" alt="License: CC0-1.0"></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 > ⚡ **A curated list of top Security Event Logs and Audit Monitoring platforms** — featuring commercial SaaS/Hosted enterprise SIEM solutions, centralized log management engines, and leading open-source frameworks for real-time threat detection, tamper-evident audit trails, and compliance monitoring (SOC 2, ISO 27001, HIPAA, PCI-DSS, NIS2, and GDPR).  
@@ -27,6 +29,8 @@
   - [Open-Source Platform Profiles](#-open-source-platform-profiles)
 - [📊 Architectural Comparison at a Glance](#-architectural-comparison-at-a-glance)
 - [🔍 Key Evaluation Criteria for Security Logging](#-key-evaluation-criteria-for-security-logging)
+- [⭐ Star History](#-star-history)
+- [💖 Support](#-support)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
@@ -222,6 +226,26 @@ When selecting between commercial SaaS platforms and open-source audit framework
 2. **Tamper Evidence & Cryptographic Integrity 🔐:** Compliance frameworks like SOC 2 and HIPAA mandate immutable, append-only storage. Tools like Retraced and hardware-backed WORM cloud storage ensure logs cannot be deleted or altered retroactively.
 3. **Detection Portability (Sigma) 📜:** Avoid proprietary vendor query lock-in by maintaining detection playbooks in vendor-neutral formats such as Sigma.
 4. **Agent Footprint & OS Coverage 💻:** Host-level audit monitoring requires minimal CPU overhead. Agents like osquery and Fluent Bit minimize host interference while extracting kernel-level events.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Security-Event-Logs-Audit-Monitoring&type=date&legend=tpp-left)](https://www.star-history.com/#ishandutta2007/Awesome-Security-Event-Logs-Audit-Monitoring&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you so much for taking the time to explore and use this curated guide! Building and keeping high-quality security and observability resources up-to-date takes continuous dedication and community feedback.
+
+If you found this repository helpful, please consider supporting the project:
+- 🌟 **Star this repository** to help others discover it on GitHub.
+- 🍴 **Fork and contribute** by submitting new tools, correction PRs, or updated benchmarks.
+- 📢 **Share it** with your security, DevOps, and SecOps engineering networks.
+- ☕ **Buy me a coffee / Sponsor:** If you would like to support ongoing open-source maintenance and research, you can sponsor through the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support and contributions keep this directory independent, accurate, and thriving! 🙏
 
 ---
 
